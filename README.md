@@ -97,5 +97,3 @@ Plaintext passwords only for demo. For production: hash + salt, restrict file pe
 ## 10. License
 MIT (see LICENSE).
 
----
-Interview tips: emphasize role-based architecture, scheduling mechanism, analytics pipeline, trade-offs of CSV persistence, and potential upgrade paths.
