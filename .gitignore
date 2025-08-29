@@ -1,0 +1,33 @@
+###############################
+# Build artifacts
+###############################
+bin/
+*.class
+*.log
+charts/*.jpg
+
+###############################
+# IDE / Editor
+###############################
+.vscode/
+*.iml
+.idea/
+*.swp
+*.DS_Store
+
+###############################
+# OS / Misc
+###############################
+Thumbs.db
+
+###############################
+# Runtime & Data Files
+###############################
+# Actual auth + analytics logs should not be committed
+profiles/user_auth.csv
+profiles/logs/analytics_data.csv
+profiles/scheduled_posts.csv
+
+###############################
+# Keep sample templates
+!profiles/user_auth.sample.csv
